@@ -14,7 +14,7 @@ Route::post('dashboard/update/status/{user:id}', [DashboardController::class, 's
 
 Route::get('client', function () {
     return view('client');
-})->name('client');
+})->name('client')->middleware(['auth','verified']);
 
 Route::get('servers', [ServerController::class, 'index'])->name('server');
 
