@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+[x-cloak]{
+    display: none !important;
+}
+
+@font-face {
+    font-family: 'race';
+    src: url('../fonts/race.ttf');
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.title{
+    font-family: 'race';
+}
+
+.link a{
+    font-family: 'race';
+}
