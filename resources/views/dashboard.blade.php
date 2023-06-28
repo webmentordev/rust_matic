@@ -54,6 +54,8 @@
                                                 </x-primary-button>
                                             @endif
                                         </form>
+                                    @else
+                                        <span class="p-2 rounded-lg bg-blue-600/10 px-3">You</span>
                                     @endif
                                 </td>
                             </tr>

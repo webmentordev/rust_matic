@@ -1,4 +1,5 @@
 @extends('layouts.apps')
+@section('title', 'Rustmatic — Rust Servers')
 @section('content')
     <div class="py-12 bg-cover bg-center h-screen relative flex items-center justify-center" style="background-image: url({{ asset('assets/header.webp') }})">
         <div class="absolute bg-black/40 backdrop-blur w-full h-full top-0 left-0"></div>

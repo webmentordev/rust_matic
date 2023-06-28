@@ -1,4 +1,5 @@
 @extends('layouts.apps')
+@section('title', 'Client — Rustmatic')
 @section('content')
     <div class="py-12 mt-[80px]">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">

@@ -6,7 +6,7 @@
         </a>
         <ul class="flex items-center font-semibold 870px:hidden">
             <a class="mx-6" href="{{ route('home') }}">Home</a>
-            <a class="mx-6" href="{{ route('home') }}">Servers</a>
+            <a class="mx-6" href="{{ route('server') }}">Servers</a>
             <a class="mx-6" href="https://rustmatic.tip4serv.com/" target="_blank" rel="nofollow">Store</a>
             <a class="mx-6" href="https://discord.gg/aMA883bgED" target="_blank" rel="nofollow">Discord</a>
             @auth
@@ -31,7 +31,7 @@
             <div class="bg-white flex items-center justify-center bg-opacity-80 backdrop-blur-md fixed top-0 left-0 w-full h-full" x-show="open" x-cloak x-on:click.self="open = false">
                 <ul class="flex flex-col items-center text-center font-semibold">
                     <a class="mb-2" href="{{ route('home') }}">Home</a>
-                    <a class="mb-2" href="{{ route('home') }}">Servers</a>
+                    <a class="mb-2" href="{{ route('server') }}">Servers</a>
                     <a class="mb-2" href="https://rustmatic.tip4serv.com/" target="_blank" rel="nofollow">Store</a>
                     <a class="mb-2" href="https://discord.gg/aMA883bgED" target="_blank" rel="nofollow">Discord</a>
                     @auth
